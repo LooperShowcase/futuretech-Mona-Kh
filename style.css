@@ -1,0 +1,176 @@
+/* Reset default margin and padding */
+body,
+h3 h6,
+p,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(50, 156, 156);
+}
+
+/* Styling for headings */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #666;
+  margin-top: 10px;
+}
+#chat-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+/* Styling for buttons */
+button {
+  background-color: #1d214d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  background-color: #efe8de;
+  border-radius: 20%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border: 3px solid #06395d;
+  border-radius: 67px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+}
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chat-bubble {
+  background-color: violet;
+  border-radius: 10px;
+}
+
+.chat-bubble-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* Set a background color /
+   body {
+     background-color: #f7f7f7;
+     font-family: Arial, sans-serif;
+   }
+   
+   / Main container /
+   .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   / Heading style /
+   h1 {
+     font-size: 24px;
+     margin-bottom: 20px;
+   }
+   
+   / Chat container /
+   #chat-container {
+     margin-top: 20px;
+   }
+   
+   / Chat bubbles /
+   .chat-bubble-container {
+     display: flex;
+     justify-content: flex-start;
+     margin-bottom: 10px;
+   }
+   
+   .chat-bubble {
+     max-width: 70%;
+     padding: 10px 15px;
+     border-radius: 10px;
+   }
+   
+   .user {
+     background-color: #3f72af;
+     color: #ffffff;
+   }
+   
+   .assistant {
+     background-color: #f2f2f2;
+   }
+   
+   / User input form /
+   form {
+     display: flex;
+     margin-top: 20px;
+   }
+   
+   input[type="text"] {
+     flex: 1;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px 0 0 5px;
+   }
+   
+   button#submit-button {
+     background-color: #3f72af;
+     color: #ffffff;
+     border: none;
+     border-radius: 0 5px 5px 0;
+     padding: 10px 20px;
+     cursor: pointer;
+   }
+   
+   / Mobile responsive styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .chat-bubble {
+    max-width: 90%;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+  }
+
+  button#submit-button {
+    padding: 8px 15px;
+  }
+}
